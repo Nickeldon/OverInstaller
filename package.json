@@ -1,0 +1,16 @@
+{
+    "name": "OverInstaller",
+    "main": "./shellinstall.js",
+    "author": "ニッケルドン • Nickeldon",
+    "version": "1.0.0",
+    "repository": "https://github.com/Nickeldon/OverPrompt.git",
+    "description": "OverPrompt Youtube media Downloader Installer",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node shellinstall.js"
+    },
+    "dependencies": {
+        "@nodegui/nodegui": "^0.59.2",
+        "shelljs": "^0.8.5"
+    }
+}
